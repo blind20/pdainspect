@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- 新项目 -->    
+    <color name="border">#DADADA</color>
+    <color name="border2">#f3f3f3</color>
+    <color name="listview_bg_focus">#EDFAFF</color>
+    <color name="common_title">#12B7F5</color>
+    <color name="light_gray">#f4f4f4</color>
+    <color name="dark_gray">#898989</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#FFCC7E</color>
+    <color name="light_red">#FDC3B1</color>
+    <color name="deep_red">#AA4040</color>
+    <color name="frm_menu_bg">#EDF2F7</color>
+    <color name="text_color_gray">#898989</color>
+    
+    <color name="subtitle_lightblue">#20C9EE</color>
+    <color name="white">#fff</color>
+    
+    <color name="red">#A7093D</color>
+    <color name="frm_background">#F5F5F9</color>
+    
+</resources>

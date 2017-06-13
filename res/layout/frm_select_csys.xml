@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="22dp"
+        android:clickable="true"
+        android:background="@drawable/login_bg_input_box">
+        
+        <Spinner android:id="@+id/spn_csys1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:spinnerMode="dropdown"
+            android:dropDownSelector="@drawable/listitem_bg"
+            android:dropDownVerticalOffset="10dp"
+            android:popupBackground="#f0000000"
+            android:background="@null"
+            />
+        
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="22dp"
+        android:clickable="true"
+        android:background="@drawable/login_bg_input_box">
+        
+        
+        <Spinner android:id="@+id/spn_csys2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:spinnerMode="dropdown"
+            android:dropDownSelector="@drawable/listitem_bg"
+            android:dropDownVerticalOffset="10dp"
+            android:popupBackground="#f0000000"
+            android:background="@null"
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/login_bg_input_box">
+        
+         <Spinner android:id="@+id/spn_csys3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:spinnerMode="dropdown"
+            android:dropDownSelector="@drawable/listitem_bg"
+            android:dropDownVerticalOffset="10dp"
+            android:popupBackground="#f0000000"
+            android:background="@null"
+            />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="24dp" 
+        android:onClick="loginSports"
+        android:text="@string/save"
+        android:textColor="#ffffff"
+        android:background="@drawable/login_btn"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>

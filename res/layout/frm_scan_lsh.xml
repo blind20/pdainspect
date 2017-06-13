@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/frm_background"
+    android:orientation="vertical" >
+	
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp">
+        
+        <View android:id="@+id/view_border"
+            android:layout_height="20dp"
+            android:layout_width="5dp"
+            android:background="@color/common_title"/>
+        
+    	<TextView android:id="@+id/tv_lsh"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_toRightOf="@id/view_border"
+    	    android:layout_marginLeft="10dp"
+    	    android:textSize="14sp"
+    	    android:text="流水号"/>
+    	
+    	<EditText android:id="@+id/et_lsh"
+    	    android:layout_height="wrap_content"
+    	    android:layout_width="match_parent"
+    	    android:hint="请输入或扫描查验流水号"
+    	    android:textSize="16sp"
+    	    android:background="@null"
+    	    android:layout_alignLeft="@id/view_border"
+    	    android:layout_below="@id/view_border"
+    	    android:padding="20dp"
+    	    />
+    	
+    	<Button android:id="@+id/btn_scan"
+    	    android:layout_height="30dp"
+    	    android:layout_width="30dp"
+    	    android:layout_alignParentRight="true"
+    	    android:layout_below="@id/tv_lsh"
+    	    android:layout_marginTop="20dp"
+    	    android:layout_marginRight="10dp"
+    	    android:background="@drawable/scan_blue"/>
+        
+    </RelativeLayout>
+    
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp" 
+        android:onClick="loginSports"
+        android:text="查询"
+        android:textColor="#ffffff"
+        android:background="@drawable/login_btn"
+        android:textSize="16sp"
+        />
+    
+    
+    
+</LinearLayout>

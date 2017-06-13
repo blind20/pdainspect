@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RelativeLayout style="@style/ButtomBar" >
+            <ImageButton
+                android:id="@+id/buttom_inspect"
+                style="@style/ButtomBarImgBtn"
+                android:background="@drawable/bar_appearance"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+
+
+        <RelativeLayout style="@style/ButtomBar" >
+            <ImageButton
+                android:id="@+id/buttom_personinfo"
+                style="@style/ButtomBarImgBtn"
+                android:background="@drawable/bar_constact"
+                android:contentDescription="@string/app_name" />
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_above="@id/footer"
+        android:background="#CBCED2" />
+
+    <LinearLayout android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@id/line">
+        <FrameLayout
+        android:id="@+id/fl_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    	<FrameLayout
+        android:id="@+id/fl_carinfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+	</LinearLayout>
+    
+
+</RelativeLayout>

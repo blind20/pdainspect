@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView android:id="@+id/tv_note"
+	    android:layout_height="wrap_content"
+	    android:layout_width="match_parent"
+	    android:maxLines="2"
+	    android:layout_margin="5dp"
+	    android:textColor="@color/red"
+	    android:text="淡红色照片种类表示必须要拍摄"/>
+    
+	<GridView android:id="@+id/grid_photo"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    android:cacheColorHint="@android:color/transparent"
+	    android:gravity="center"
+	    android:horizontalSpacing="5dp"
+	    android:listSelector="@android:color/transparent"
+	    android:numColumns="4"
+	    android:scrollbars="none"
+	    android:verticalSpacing="5dp" />
+</LinearLayout>
